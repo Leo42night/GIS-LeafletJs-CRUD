@@ -20,6 +20,11 @@ hidden = [
     "vendor",
     "phpunit.xml"
 ]
+modules = ["nodejs-20:v8-20230920-bd784b9"]
 
 [packager]
 language = "php"
+
+[[ports]]
+localPort = 8000
+externalPort = 80
